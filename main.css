@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Helvetica";
+  background-color: black;
+  background: url("http://prod-upp-image-read.ft.com/d087758c-3167-11e3-817c-00144feab7de")
+    fixed;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+main {
+  background-color: black;
+  opacity: 0.8;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  max-width: 90%
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.stats-bar {
+  padding: 20px;
+}
+
+.quiz-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+li {
+  padding: 10px;
+}

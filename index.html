@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Home Buying Quiz</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="index.js"></script>
+</head>
+<!-- ================================================== -->
+
+<body>
+  <main>
+
+    <div class='intro'>
+      <h1>Think you know San Francisco?</h1>
+      <h1>Let's find out!</h1>
+      <button type='button' class='start-button'>Click to start</button>
+    </div>
+    <!--Start quiz below------------------------>
+    <div class='quiz-area'>
+      <div class='stats-bar'>
+        <p id='question-count'>Question: 0</p>
+        <br>
+        <p id='score-count'>Score: 0</p>
+      </div>
+      <form action="submit">
+        <p>Which bridge connects San Francisco to Oakland?</p>
+        <ul>
+          <input type="radio" name="option" value="option1"> Golden Gate Bridge<br>
+          <input type="radio" name="option" value="option2"> Bay Bridge<br>
+          <input type="radio" name="option" value="option3"> Dumbarton Bridge <br>
+          <input type="radio" name="option" value="option3"> Richmond Bridge
+        </ul>
+      </form>
+      <button type='submit'>Submit</button>
+    </div>
+
+  </main>
+
+</body>
+
+</html>
