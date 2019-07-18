@@ -145,9 +145,9 @@ let QUESTIONNUM = 0
 let SCORE = 0
 const customResultsText = [
   'Hella good! Your rank: "Veteran Muni driver"',
-  'You\'ve got a Clipper card and you\'re not afraid to use it. Your rank: "Hipster tech commuter"',
-  'When people ask where you\'re from, you say "the Bay Area". Your rank: "San Jose resident"',
-  'Not even close... Your rank: "Segway riding tourist"'
+  'When people ask where you\'re from, you say SF. It\'s just easier, right?. Your rank: "Bay Area resident"',
+  'You\'ve got a Clipper card and you\'re not afraid to use it. Your rank: "Tech commuter"',
+  'Welcome to SF! . Your rank: "Segway riding tourist"'
 ]
 
 // ===============================================================
@@ -262,7 +262,7 @@ function renderIntro() {
 function renderFinalResults() {
   console.log("final results displayed")
   let resultMessage = ""
-  if (SCORE > 8) {
+  if (SCORE > 9) {
     resultMessage = customResultsText[0]
   } else if (SCORE > 5) {
     resultMessage = customResultsText[1]
