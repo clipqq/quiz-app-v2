@@ -3,10 +3,10 @@ const QUESTIONS = [{
     content: `
 <p>Which bridge connects San Francisco to Oakland?</p>
 <ul>
-<input type="radio" name="option" value="option1"> Golden Gate Bridge<br>
-<input type="radio" name="option" value="option2"> Bay Bridge<br>
-<input type="radio" name="option" value="option3"> Dumbarton Bridge <br>
-<input type="radio" name="option" value="option4"> Richmond Bridge
+<label><input type="radio" name="option" value="option1" required> Golden Gate Bridge<br></label>
+<label><input type="radio" name="option" value="option2"> Bay Bridge<br></label>
+<label><input type="radio" name="option" value="option3"> Dumbarton Bridge <br></label>
+<label><input type="radio" name="option" value="option4"> Richmond Bridge<br></label>
 </ul>
 `,
     answer: "option1",
@@ -17,10 +17,10 @@ const QUESTIONS = [{
     content: `
 <p>What is the name of the fog in San Francisco?</p>
 <ul>
-<input type="radio" name="option" value="option1"> Albert<br>
-<input type="radio" name="option" value="option2"> Richard<br>
-<input type="radio" name="option" value="option3"> Karl <br>
-<input type="radio" name="option" value="option4"> John
+<label><input type="radio" name="option" value="option1" required> Albert<br></label>
+<label><input type="radio" name="option" value="option2"> Richard<br></label>
+<label><input type="radio" name="option" value="option3"> Karl <br></label>
+<label><input type="radio" name="option" value="option4"> John<br></label>
 </ul>
 `,
     answer: "option3",
@@ -31,10 +31,10 @@ const QUESTIONS = [{
     content: `
 <p>What is the airport code for San Francisco?</p>
 <ul>
-<input type="radio" name="option" value="option1"> SFO<br>
-<input type="radio" name="option" value="option2"> SFX<br>
-<input type="radio" name="option" value="option3"> SNF <br>
-<input type="radio" name="option" value="option4"> SAN
+<label><input type="radio" name="option" value="option1" required> SFO<br></label>
+<label><input type="radio" name="option" value="option2"> SFX<br></label>
+<label><input type="radio" name="option" value="option3"> SNF <br></label>
+<label><input type="radio" name="option" value="option4"> SAN<br></label>
 </ul>
 `,
     answer: "option1",
@@ -46,10 +46,10 @@ const QUESTIONS = [{
     content: `
 <p>Golden Gate Park is located south of what neighborhood?</p>
 <ul>
-<input type="radio" name="option" value="option1"> Sunset<br>
-<input type="radio" name="option" value="option2"> Haight Ashbury<br>
-<input type="radio" name="option" value="option3"> SOMA <br>
-<input type="radio" name="option" value="option4"> Richmond
+<label><input type="radio" name="option" value="option1" required> Sunset<br></label>
+<label><input type="radio" name="option" value="option2"> Haight Ashbury<br></label>
+<label><input type="radio" name="option" value="option3"> SOMA <br></label>
+<label><input type="radio" name="option" value="option4"> Richmond<br></label>
 </ul>
 `,
     answer: "option4",
@@ -60,10 +60,10 @@ const QUESTIONS = [{
     content: `
 <p>What is the tallest building in San Francisco?</p>
 <ul>
-<input type="radio" name="option" value="option1"> Salesforce Tower<br>
-<input type="radio" name="option" value="option2"> Transamerica Building<br>
-<input type="radio" name="option" value="option3"> Bank of America Tower <br>
-<input type="radio" name="option" value="option4"> Apple Spaceship
+<label><input type="radio" name="option" value="option1" required> Salesforce Tower<br></label>
+<label><input type="radio" name="option" value="option2"> Transamerica Building<br></label>
+<label><input type="radio" name="option" value="option3"> Bank of America Tower <br></label>
+<label><input type="radio" name="option" value="option4"> Apple Spaceship<br></label>
 </ul>
 `,
     answer: "option1",
@@ -74,10 +74,10 @@ const QUESTIONS = [{
     content: `
 <p>The Marina neighborhood is home to this San Francisco landmark:</p>
 <ul>
-<input type="radio" name="option" value="option1"> San Francisco Zoo<br>
-<input type="radio" name="option" value="option2"> Sutro Tower<br>
-<input type="radio" name="option" value="option3"> De Young Museum <br>
-<input type="radio" name="option" value="option4"> Palace of Fine Arts
+<label><input type="radio" name="option" value="option1" required> San Francisco Zoo<br></label>
+<label><input type="radio" name="option" value="option2"> Sutro Tower<br></label>
+<label><input type="radio" name="option" value="option3"> De Young Museum <br></label>
+<label><input type="radio" name="option" value="option4"> Palace of Fine Arts<br></label>
 </ul>
 `,
     answer: "option4",
@@ -88,10 +88,10 @@ const QUESTIONS = [{
     content: `
 <p>The 49ers used to play at this location before moving to Santa Clara:</p>
 <ul>
-<input type="radio" name="option" value="option1"> AT&T Park<br>
-<input type="radio" name="option" value="option2"> Candlestick Park<br>
-<input type="radio" name="option" value="option3"> Oracle Arena <br>
-<input type="radio" name="option" value="option4"> Stern Grove
+<label><input type="radio" name="option" value="option1" required> AT&T Park<br></label>
+<label><input type="radio" name="option" value="option2"> Candlestick Park<br></label>
+<label><input type="radio" name="option" value="option3"> Oracle Arena <br></label>
+<label><input type="radio" name="option" value="option4"> Stern Grove<br></label>
 </ul>
 `,
     answer: "option2",
@@ -102,10 +102,10 @@ const QUESTIONS = [{
     content: `
 <p>What is the 4th item missing from this series: "Embarcadero, Montgomery, Powell"</p>
 <ul>
-<input type="radio" name="option" value="option1"> Balboa Park<br>
-<input type="radio" name="option" value="option2"> Fremont<br>
-<input type="radio" name="option" value="option3"> Civic Center <br>
-<input type="radio" name="option" value="option4"> Church
+<label><input type="radio" name="option" value="option1" required> Balboa Park<br></label>
+<label><input type="radio" name="option" value="option2"> Fremont<br></label>
+<label><input type="radio" name="option" value="option3"> Civic Center <br></label>
+<label><input type="radio" name="option" value="option4"> Church<br></label>
 </ul>
 `,
     answer: "option3",
@@ -116,10 +116,10 @@ const QUESTIONS = [{
     content: `
 <p>Which of these famous startups is not headquartered in San Francisco?</p>
 <ul>
-<input type="radio" name="option" value="option1"> Airbnb<br>
-<input type="radio" name="option" value="option2"> Uber<br>
-<input type="radio" name="option" value="option3"> Twitter <br>
-<input type="radio" name="option" value="option4"> Facebook
+<label><input type="radio" name="option" value="option1" required> Airbnb<br></label>
+<label><input type="radio" name="option" value="option2"> Uber<br></label>
+<label><input type="radio" name="option" value="option3"> Twitter <br></label>
+<label><input type="radio" name="option" value="option4"> Facebook<br></label>
 </ul>
 `,
     answer: "option4",
@@ -130,10 +130,10 @@ const QUESTIONS = [{
     content: `
 <p>Golden Gate Park hosts what yearly music festival?</p>
 <ul>
-<input type="radio" name="option" value="option1"> Aftershock<br>
-<input type="radio" name="option" value="option2"> EDC San Francisco<br>
-<input type="radio" name="option" value="option3"> Outside Lands <br>
-<input type="radio" name="option" value="option4"> Treasure Island Music Festival
+<label><input type="radio" name="option" value="option1" required> Aftershock<br></label>
+<label><input type="radio" name="option" value="option2"> EDC San Francisco<br></label>
+<label><input type="radio" name="option" value="option3"> Outside Lands <br></label>
+<label><input type="radio" name="option" value="option4"> Treasure Island Music Festival<br></label>
 </ul>
 `,
     answer: "option2",
@@ -176,11 +176,7 @@ function renderNewQuestion() {
     console.log(`rendering new question #${QUESTIONNUM}`)
     makeQuestionTemplate()
     $('#question-count').html(`Question: ${QUESTIONNUM + 1} / 10`)
-    let userAnswer = $("input[name='option']:checked").val()
-    console.log(userAnswer)
-    $('.submit-answer-btn').on('click', function(e) {
-      checkAnswer(userAnswer)
-    })
+    checkAnswer()
   } else {
     console.log(QUESTIONNUM)
     renderFinalResults()
@@ -189,7 +185,13 @@ function renderNewQuestion() {
 
 //---------------------------------------------------------
 
-function checkAnswer(userAnswer) {
+function checkAnswer() {
+   $('.submit-answer-btn').on('click', function(e) {
+      let userAnswer = $('input:radio[name="option"]:checked').val() //$('input:checked').val()
+      console.log(userAnswer)
+      alert($('input:radio[name="option"]:checked').val());
+
+    })
   console.log(`checking your answer ${userAnswer}`)
     if (QUESTIONS[QUESTIONNUM].answer === userAnswer) {
       triggerRightAnswer()
