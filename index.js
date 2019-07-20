@@ -176,7 +176,8 @@ function renderNewQuestion() {
     console.log(`rendering new question #${QUESTIONNUM}`)
     makeQuestionTemplate()
     $('#question-count').html(`Question: ${QUESTIONNUM + 1} / 10`)
-    let userAnswer = $("input[type='radio']:checked").val()
+    let userAnswer = $("input[name='option']:checked").val()
+    console.log(userAnswer)
     $('.submit-answer-btn').on('click', function(e) {
       checkAnswer(userAnswer)
     })
