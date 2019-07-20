@@ -15,7 +15,11 @@ body {
   min-height: 100vh;
 }
 
-main {
+.top-bar>img {
+  width: 50px;
+}
+
+.quiz-area {
   background-color: black;
   opacity: 0.8;
   display: flex;
@@ -31,7 +35,7 @@ main {
   text-align: center;
 }
 
-.stats-bar {
+.top-bar {
   padding: 20px;
 }
 
@@ -48,4 +52,12 @@ main {
 li {
   padding: 10px;
   list-style: none
+}
+
+@media screen and (min-width: 800px) {
+  .quiz-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
 }

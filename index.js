@@ -3,10 +3,10 @@ const QUESTIONS = [{
     content: `
 <p>Which bridge connects San Francisco to Oakland?</p>
 <ul>
-<label><input type="radio" name="option" value="option1" required /> Golden Gate Bridge<br></label>
-<label><input type="radio" name="option" value="option2" required /> Bay Bridge<br></label>
-<label><input type="radio" name="option" value="option3" required /> Dumbarton Bridge <br></label>
-<label><input type="radio" name="option" value="option4" required /> Richmond Bridge<br></label>
+<label><input type="radio" name="option" value="option1" required /> Golden Gate Bridge</label>
+<label><input type="radio" name="option" value="option2" required /> Bay Bridge</label>
+<label><input type="radio" name="option" value="option3" required /> Dumbarton Bridge </label>
+<label><input type="radio" name="option" value="option4" required /> Richmond Bridge</label>
 </ul>
 `,
     answer: "option1",
@@ -17,10 +17,10 @@ const QUESTIONS = [{
     content: `
 <p>What is the name of the fog in San Francisco?</p>
 <ul>
-<label><input type="radio" name="option" value="option1" required /> Albert<br></label>
-<label><input type="radio" name="option" value="option2" required /> Richard<br></label>
-<label><input type="radio" name="option" value="option3" required /> Karl <br></label>
-<label><input type="radio" name="option" value="option4" required /> John<br></label>
+<label><input type="radio" name="option" value="option1" required /> Albert</label>
+<label><input type="radio" name="option" value="option2" required /> Richard</label>
+<label><input type="radio" name="option" value="option3" required /> Karl </label>
+<label><input type="radio" name="option" value="option4" required /> John</label>
 </ul>
 `,
     answer: "option3",
@@ -31,10 +31,10 @@ const QUESTIONS = [{
     content: `
 <p>What is the airport code for San Francisco International?</p>
 <ul>
-<label><input type="radio" name="option" value="option1" required /> SFO<br></label>
-<label><input type="radio" name="option" value="option2" required /> SFX<br></label>
-<label><input type="radio" name="option" value="option3" required /> SNF <br></label>
-<label><input type="radio" name="option" value="option4" required /> SAN<br></label>
+<label><input type="radio" name="option" value="option1" required /> SFO</label>
+<label><input type="radio" name="option" value="option2" required /> SFX</label>
+<label><input type="radio" name="option" value="option3" required /> SNF </label>
+<label><input type="radio" name="option" value="option4" required /> SAN</label>
 </ul>
 `,
     answer: "option1",
@@ -46,10 +46,10 @@ const QUESTIONS = [{
     content: `
 <p>Golden Gate Park is located south of what neighborhood?</p>
 <ul>
-<label><input type="radio" name="option" value="option1" required /> Sunset<br></label>
-<label><input type="radio" name="option" value="option2" required /> Haight Ashbury<br></label>
-<label><input type="radio" name="option" value="option3" required /> SOMA <br></label>
-<label><input type="radio" name="option" value="option4" required /> Richmond<br></label>
+<label><input type="radio" name="option" value="option1" required /> Sunset</label>
+<label><input type="radio" name="option" value="option2" required /> Haight Ashbury</label>
+<label><input type="radio" name="option" value="option3" required /> SOMA </label>
+<label><input type="radio" name="option" value="option4" required /> Richmond</label>
 </ul>
 `,
     answer: "option4",
@@ -60,10 +60,10 @@ const QUESTIONS = [{
     content: `
 <p>What is the tallest building in downtown San Francisco?</p>
 <ul>
-<label><input type="radio" name="option" value="option1" required /> Salesforce Tower<br></label>
-<label><input type="radio" name="option" value="option2" required /> Transamerica Building<br></label>
-<label><input type="radio" name="option" value="option3" required /> Bank of America Tower <br></label>
-<label><input type="radio" name="option" value="option4" required /> Millenium Tower<br></label>
+<label><input type="radio" name="option" value="option1" required /> Salesforce Tower</label>
+<label><input type="radio" name="option" value="option2" required /> Transamerica Building</label>
+<label><input type="radio" name="option" value="option3" required /> Bank of America Tower </label>
+<label><input type="radio" name="option" value="option4" required /> Millenium Tower</label>
 </ul>
 `,
     answer: "option1",
@@ -74,10 +74,10 @@ const QUESTIONS = [{
     content: `
 <p>The Marina neighborhood is home to this San Francisco landmark:</p>
 <ul>
-<label><input type="radio" name="option" value="option1" required /> Cliff House<br></label>
-<label><input type="radio" name="option" value="option2" required /> Sutro Tower<br></label>
-<label><input type="radio" name="option" value="option3" required /> De Young Museum <br></label>
-<label><input type="radio" name="option" value="option4" required /> Palace of Fine Arts<br></label>
+<label><input type="radio" name="option" value="option1" required /> Cliff House</label>
+<label><input type="radio" name="option" value="option2" required /> Sutro Tower</label>
+<label><input type="radio" name="option" value="option3" required /> De Young Museum </label>
+<label><input type="radio" name="option" value="option4" required /> Palace of Fine Arts</label>
 </ul>
 `,
     answer: "option4",
@@ -88,10 +88,10 @@ const QUESTIONS = [{
     content: `
 <p>The 49ers used to play at this location before moving to Santa Clara:</p>
 <ul>
-<label><input type="radio" name="option" value="option1" required /> AT&T Park<br></label>
-<label><input type="radio" name="option" value="option2" required /> Candlestick Park<br></label>
-<label><input type="radio" name="option" value="option3" required /> Oracle Arena <br></label>
-<label><input type="radio" name="option" value="option4" required /> Stern Grove<br></label>
+<label><input type="radio" name="option" value="option1" required /> AT&T Park</label>
+<label><input type="radio" name="option" value="option2" required /> Candlestick Park</label>
+<label><input type="radio" name="option" value="option3" required /> Oracle Arena </label>
+<label><input type="radio" name="option" value="option4" required /> Stern Grove</label>
 </ul>
 `,
     answer: "option2",
@@ -102,10 +102,10 @@ const QUESTIONS = [{
     content: `
 <p>What is the 4th item missing from this series: Embarcadero, Montgomery, Powell...</p>
 <ul>
-<label><input type="radio" name="option" value="option1" required /> Balboa Park<br></label>
-<label><input type="radio" name="option" value="option2" required /> Fremont<br></label>
-<label><input type="radio" name="option" value="option3" required /> Civic Center <br></label>
-<label><input type="radio" name="option" value="option4" required /> Church<br></label>
+<label><input type="radio" name="option" value="option1" required /> Balboa Park</label>
+<label><input type="radio" name="option" value="option2" required /> Fremont</label>
+<label><input type="radio" name="option" value="option3" required /> Civic Center </label>
+<label><input type="radio" name="option" value="option4" required /> Church</label>
 </ul>
 `,
     answer: "option3",
@@ -116,10 +116,10 @@ const QUESTIONS = [{
     content: `
 <p>Which of these famous tech companies is not headquartered in San Francisco?</p>
 <ul>
-<label><input type="radio" name="option" value="option1" required /> Airbnb<br></label>
-<label><input type="radio" name="option" value="option2" required /> Uber<br></label>
-<label><input type="radio" name="option" value="option3" required /> Twitter <br></label>
-<label><input type="radio" name="option" value="option4" required /> Facebook<br></label>
+<label><input type="radio" name="option" value="option1" required /> Airbnb</label>
+<label><input type="radio" name="option" value="option2" required /> Uber</label>
+<label><input type="radio" name="option" value="option3" required /> Twitter </label>
+<label><input type="radio" name="option" value="option4" required /> Facebook</label>
 </ul>
 `,
     answer: "option4",
@@ -130,10 +130,10 @@ const QUESTIONS = [{
     content: `
 <p>Golden Gate Park hosts what yearly music festival?</p>
 <ul>
-<label><input type="radio" name="option" value="option1" required /> Aftershock<br></label>
-<label><input type="radio" name="option" value="option2" required /> EDC San Francisco<br></label>
-<label><input type="radio" name="option" value="option3" required /> Outside Lands <br></label>
-<label><input type="radio" name="option" value="option4" required /> Treasure Island Music Festival<br></label>
+<label><input type="radio" name="option" value="option1" required /> Aftershock</label>
+<label><input type="radio" name="option" value="option2" required /> EDC San Francisco</label>
+<label><input type="radio" name="option" value="option3" required /> Outside Lands </label>
+<label><input type="radio" name="option" value="option4" required /> Treasure Island Music Festival</label>
 </ul>
 `,
     answer: "option3",
@@ -164,7 +164,7 @@ function makeQuestionTemplate() {
   $(".quiz-area").html(`
     <form class='quiz-form'>
     ${QUESTIONS[QUESTIONNUM].content}
-    <button class='submit-answer-btn' type='submit'>Submit</button>
+    <button class='submit-answer-btn centered' type='submit'>Submit</button>
     </form>
   `)
 }
@@ -186,11 +186,9 @@ function renderNewQuestion() {
 //---------------------------------------------------------
 
 function checkAnswer() {
-  //  $('.submit-answer-btn').on('click', function(e) {
   $('.quiz-form').on('submit', function (e) {
-
     e.preventDefault()
-    let userAnswer = $('input:radio[name="option"]:checked').val() //$('input:checked').val()
+    let userAnswer = $('input:radio[name="option"]:checked').val()
     console.log(`checking your answer ${userAnswer}`)
     if (QUESTIONS[QUESTIONNUM].answer === userAnswer) {
       triggerRightAnswer()
