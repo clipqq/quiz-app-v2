@@ -3,10 +3,10 @@ const QUESTIONS = [{
     content: `
 <p>Which bridge connects San Francisco to Oakland?</p>
 <ul>
-<label><input type="radio" name="option" value="option1" required> Golden Gate Bridge<br></label>
-<label><input type="radio" name="option" value="option2"> Bay Bridge<br></label>
-<label><input type="radio" name="option" value="option3"> Dumbarton Bridge <br></label>
-<label><input type="radio" name="option" value="option4"> Richmond Bridge<br></label>
+<label><input type="radio" name="option" value="option1" required /> Golden Gate Bridge<br></label>
+<label><input type="radio" name="option" value="option2" required /> Bay Bridge<br></label>
+<label><input type="radio" name="option" value="option3" required /> Dumbarton Bridge <br></label>
+<label><input type="radio" name="option" value="option4" required /> Richmond Bridge<br></label>
 </ul>
 `,
     answer: "option1",
@@ -17,10 +17,10 @@ const QUESTIONS = [{
     content: `
 <p>What is the name of the fog in San Francisco?</p>
 <ul>
-<label><input type="radio" name="option" value="option1" required> Albert<br></label>
-<label><input type="radio" name="option" value="option2"> Richard<br></label>
-<label><input type="radio" name="option" value="option3"> Karl <br></label>
-<label><input type="radio" name="option" value="option4"> John<br></label>
+<label><input type="radio" name="option" value="option1" required /> Albert<br></label>
+<label><input type="radio" name="option" value="option2" required /> Richard<br></label>
+<label><input type="radio" name="option" value="option3" required /> Karl <br></label>
+<label><input type="radio" name="option" value="option4" required /> John<br></label>
 </ul>
 `,
     answer: "option3",
@@ -29,12 +29,12 @@ const QUESTIONS = [{
   {
     id: 3,
     content: `
-<p>What is the airport code for San Francisco?</p>
+<p>What is the airport code for San Francisco International?</p>
 <ul>
-<label><input type="radio" name="option" value="option1" required> SFO<br></label>
-<label><input type="radio" name="option" value="option2"> SFX<br></label>
-<label><input type="radio" name="option" value="option3"> SNF <br></label>
-<label><input type="radio" name="option" value="option4"> SAN<br></label>
+<label><input type="radio" name="option" value="option1" required /> SFO<br></label>
+<label><input type="radio" name="option" value="option2" required /> SFX<br></label>
+<label><input type="radio" name="option" value="option3" required /> SNF <br></label>
+<label><input type="radio" name="option" value="option4" required /> SAN<br></label>
 </ul>
 `,
     answer: "option1",
@@ -46,10 +46,10 @@ const QUESTIONS = [{
     content: `
 <p>Golden Gate Park is located south of what neighborhood?</p>
 <ul>
-<label><input type="radio" name="option" value="option1" required> Sunset<br></label>
-<label><input type="radio" name="option" value="option2"> Haight Ashbury<br></label>
-<label><input type="radio" name="option" value="option3"> SOMA <br></label>
-<label><input type="radio" name="option" value="option4"> Richmond<br></label>
+<label><input type="radio" name="option" value="option1" required /> Sunset<br></label>
+<label><input type="radio" name="option" value="option2" required /> Haight Ashbury<br></label>
+<label><input type="radio" name="option" value="option3" required /> SOMA <br></label>
+<label><input type="radio" name="option" value="option4" required /> Richmond<br></label>
 </ul>
 `,
     answer: "option4",
@@ -58,12 +58,12 @@ const QUESTIONS = [{
   {
     id: 5,
     content: `
-<p>What is the tallest building in San Francisco?</p>
+<p>What is the tallest building in downtown San Francisco?</p>
 <ul>
-<label><input type="radio" name="option" value="option1" required> Salesforce Tower<br></label>
-<label><input type="radio" name="option" value="option2"> Transamerica Building<br></label>
-<label><input type="radio" name="option" value="option3"> Bank of America Tower <br></label>
-<label><input type="radio" name="option" value="option4"> Apple Spaceship<br></label>
+<label><input type="radio" name="option" value="option1" required /> Salesforce Tower<br></label>
+<label><input type="radio" name="option" value="option2" required /> Transamerica Building<br></label>
+<label><input type="radio" name="option" value="option3" required /> Bank of America Tower <br></label>
+<label><input type="radio" name="option" value="option4" required /> Millenium Tower<br></label>
 </ul>
 `,
     answer: "option1",
@@ -74,10 +74,10 @@ const QUESTIONS = [{
     content: `
 <p>The Marina neighborhood is home to this San Francisco landmark:</p>
 <ul>
-<label><input type="radio" name="option" value="option1" required> San Francisco Zoo<br></label>
-<label><input type="radio" name="option" value="option2"> Sutro Tower<br></label>
-<label><input type="radio" name="option" value="option3"> De Young Museum <br></label>
-<label><input type="radio" name="option" value="option4"> Palace of Fine Arts<br></label>
+<label><input type="radio" name="option" value="option1" required /> Cliff House<br></label>
+<label><input type="radio" name="option" value="option2" required /> Sutro Tower<br></label>
+<label><input type="radio" name="option" value="option3" required /> De Young Museum <br></label>
+<label><input type="radio" name="option" value="option4" required /> Palace of Fine Arts<br></label>
 </ul>
 `,
     answer: "option4",
@@ -88,10 +88,10 @@ const QUESTIONS = [{
     content: `
 <p>The 49ers used to play at this location before moving to Santa Clara:</p>
 <ul>
-<label><input type="radio" name="option" value="option1" required> AT&T Park<br></label>
-<label><input type="radio" name="option" value="option2"> Candlestick Park<br></label>
-<label><input type="radio" name="option" value="option3"> Oracle Arena <br></label>
-<label><input type="radio" name="option" value="option4"> Stern Grove<br></label>
+<label><input type="radio" name="option" value="option1" required /> AT&T Park<br></label>
+<label><input type="radio" name="option" value="option2" required /> Candlestick Park<br></label>
+<label><input type="radio" name="option" value="option3" required /> Oracle Arena <br></label>
+<label><input type="radio" name="option" value="option4" required /> Stern Grove<br></label>
 </ul>
 `,
     answer: "option2",
@@ -100,12 +100,12 @@ const QUESTIONS = [{
   {
     id: 8,
     content: `
-<p>What is the 4th item missing from this series: "Embarcadero, Montgomery, Powell"</p>
+<p>What is the 4th item missing from this series: Embarcadero, Montgomery, Powell...</p>
 <ul>
-<label><input type="radio" name="option" value="option1" required> Balboa Park<br></label>
-<label><input type="radio" name="option" value="option2"> Fremont<br></label>
-<label><input type="radio" name="option" value="option3"> Civic Center <br></label>
-<label><input type="radio" name="option" value="option4"> Church<br></label>
+<label><input type="radio" name="option" value="option1" required /> Balboa Park<br></label>
+<label><input type="radio" name="option" value="option2" required /> Fremont<br></label>
+<label><input type="radio" name="option" value="option3" required /> Civic Center <br></label>
+<label><input type="radio" name="option" value="option4" required /> Church<br></label>
 </ul>
 `,
     answer: "option3",
@@ -114,12 +114,12 @@ const QUESTIONS = [{
   {
     id: 9,
     content: `
-<p>Which of these famous startups is not headquartered in San Francisco?</p>
+<p>Which of these famous tech companies is not headquartered in San Francisco?</p>
 <ul>
-<label><input type="radio" name="option" value="option1" required> Airbnb<br></label>
-<label><input type="radio" name="option" value="option2"> Uber<br></label>
-<label><input type="radio" name="option" value="option3"> Twitter <br></label>
-<label><input type="radio" name="option" value="option4"> Facebook<br></label>
+<label><input type="radio" name="option" value="option1" required /> Airbnb<br></label>
+<label><input type="radio" name="option" value="option2" required /> Uber<br></label>
+<label><input type="radio" name="option" value="option3" required /> Twitter <br></label>
+<label><input type="radio" name="option" value="option4" required /> Facebook<br></label>
 </ul>
 `,
     answer: "option4",
@@ -130,13 +130,13 @@ const QUESTIONS = [{
     content: `
 <p>Golden Gate Park hosts what yearly music festival?</p>
 <ul>
-<label><input type="radio" name="option" value="option1" required> Aftershock<br></label>
-<label><input type="radio" name="option" value="option2"> EDC San Francisco<br></label>
-<label><input type="radio" name="option" value="option3"> Outside Lands <br></label>
-<label><input type="radio" name="option" value="option4"> Treasure Island Music Festival<br></label>
+<label><input type="radio" name="option" value="option1" required /> Aftershock<br></label>
+<label><input type="radio" name="option" value="option2" required /> EDC San Francisco<br></label>
+<label><input type="radio" name="option" value="option3" required /> Outside Lands <br></label>
+<label><input type="radio" name="option" value="option4" required /> Treasure Island Music Festival<br></label>
 </ul>
 `,
-    answer: "option2",
+    answer: "option3",
     answerString: 'Outside Lands'
   }
 ]
@@ -145,16 +145,16 @@ let QUESTIONNUM = 0
 let SCORE = 0
 const customResultsText = [
   'Hella good! Your rank: "Veteran Muni driver"',
-  'When people ask where you\'re from, you say SF. It\'s just easier, right?. Your rank: "Bay Area resident"',
+  'When people ask where you\'re from, you say SF. It\'s just easier, right? Your rank: "Bay Area resident"',
   'You\'ve got a Clipper card and you\'re not afraid to use it. Your rank: "Tech commuter"',
-  'Welcome to SF! . Your rank: "Segway riding tourist"'
+  'New to the city, huh? Ditch the shorts and bring a jacket. Your rank: "Segway riding tourist"'
 ]
 
 // ===============================================================
 
 function startQuiz() {
-  $("main").on("click", ".start-btn", function(e) {
-  	e.preventDefault()
+  $("main").on("click", ".start-btn", function (e) {
+    e.preventDefault()
     renderNewQuestion()
   })
 }
@@ -164,8 +164,8 @@ function makeQuestionTemplate() {
   $(".quiz-area").html(`
     <form class='quiz-form'>
     ${QUESTIONS[QUESTIONNUM].content}
+    <button class='submit-answer-btn' type='submit'>Submit</button>
     </form>
-    <button class='submit-answer-btn' type='button'>Submit</button>
   `)
 }
 
@@ -186,18 +186,18 @@ function renderNewQuestion() {
 //---------------------------------------------------------
 
 function checkAnswer() {
-   $('.submit-answer-btn').on('click', function(e) {
-      let userAnswer = $('input:radio[name="option"]:checked').val() //$('input:checked').val()
-      console.log(userAnswer)
-      alert($('input:radio[name="option"]:checked').val());
+  //  $('.submit-answer-btn').on('click', function(e) {
+  $('.quiz-form').on('submit', function (e) {
 
-    })
-  console.log(`checking your answer ${userAnswer}`)
+    e.preventDefault()
+    let userAnswer = $('input:radio[name="option"]:checked').val() //$('input:checked').val()
+    console.log(`checking your answer ${userAnswer}`)
     if (QUESTIONS[QUESTIONNUM].answer === userAnswer) {
       triggerRightAnswer()
     } else {
       triggerWrongAnswer(QUESTIONS[QUESTIONNUM].answerString)
     }
+  })
 }
 
 //---------------------------------------------------------
@@ -225,25 +225,24 @@ function renderPostQuestion(postQuestionText) {
     <p>${postQuestionText}</p>
     <button class='next-btn' type='button'>Next</button>
   `)
-  nextQuestion() 
+  nextQuestion()
 }
 
 //---------------------------------------------------------
 
 function nextQuestion() {
-  $('.next-btn').on('click', function(e) {
+  $('.next-btn').on('click', function (e) {
     QUESTIONNUM++
-    renderNewQuestion()  
+    renderNewQuestion()
   })
 }
 
 //---------------------------------------------------------
 
-
 function resetQuiz() {
   //listens for click on restart button
   // calls startQuiz()
-  $(main).on('click', '.restart-btn', function(e) {
+  $(main).on('click', '.restart-btn', function (e) {
     $('.quiz-area').html('')
     QUESTIONNUM = 0
     renderIntro()
@@ -265,7 +264,7 @@ function renderIntro() {
 function renderFinalResults() {
   console.log("final results displayed")
   let resultMessage = ""
-  if (SCORE > 9) {
+  if (SCORE > 8) {
     resultMessage = customResultsText[0]
   } else if (SCORE > 5) {
     resultMessage = customResultsText[1]
@@ -285,12 +284,8 @@ function renderFinalResults() {
 
 //---------------------------------------------------------
 
-
-
-
-function main () {
+function main() {
   startQuiz()
-
 }
 
 $(main)

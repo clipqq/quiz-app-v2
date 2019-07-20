@@ -3,11 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Helvetica";
   background-color: black;
-  background: url("http://prod-upp-image-read.ft.com/d087758c-3167-11e3-817c-00144feab7de")
-    fixed;
+  background: url("http://prod-upp-image-read.ft.com/d087758c-3167-11e3-817c-00144feab7de") fixed;
   color: white;
   display: flex;
   justify-content: center;
