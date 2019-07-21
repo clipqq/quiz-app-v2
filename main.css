@@ -5,48 +5,84 @@
 }
 
 body {
-  font-family: "Helvetica";
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   background-color: black;
   background: url("http://prod-upp-image-read.ft.com/d087758c-3167-11e3-817c-00144feab7de") fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+main {
+  margin-top: 40px;
   min-height: 100vh;
+  font-size: 12pt;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+	background-color:#2dabf9;
+	border-radius:3px;
+  border:1px solid #0b0e07;
+  color:#ffffff;
+	font-size:15px;
+	padding:9px 23px;
+	text-decoration:none;
+  text-shadow:0px 1px 0px #263666;
+}
+
+.top-bar {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 500px;
 }
 
 .top-bar>img {
-  width: 50px;
+  width: 50%;
+}
+
+.score-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration-color: aqua
+  outline-color: #0b0e07;
 }
 
 .quiz-area {
   background-color: black;
   opacity: 0.8;
-  display: flex;
-  flex-direction: column;
-  padding: 50px;
-  max-width: 90%
-}
-
-.centered {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.top-bar {
   padding: 20px;
+  align-items: center;
 }
+
+.quiz-area ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding:20px;
+}
+
+.quiz-area button {
+  margin: 20px;
+}
+
 
 .quiz-area {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.hidden {
-  display: none;
+  text-align: center;
+  min-height: 266px;
+  min-width:100%
 }
 
 li {
@@ -54,10 +90,41 @@ li {
   list-style: none
 }
 
+
 @media screen and (min-width: 800px) {
-  .quiz-form {
+  main {
+    font-size: 14pt;
+  }
+
+  .quiz-area {
+    background-color: black;
+    opacity: 0.8;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14pt;
+    min-height: 100px;
+    min-width: 200;
+  }
+
+  .score-area {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: space-between;
+  }
+
+  .score-area label {
+    padding: 20px;
+  }
+
+  .quiz-area ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:5px;
+  }
+
+  .quiz-area label {
+    padding: 5px;
   }
 }

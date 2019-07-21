@@ -9,8 +9,8 @@ const QUESTIONS = [{
 <label><input type="radio" name="option" value="option4" required /> Richmond Bridge</label>
 </ul>
 `,
-    answer: "option1",
-    answerString: 'Golden Gate Bridge'
+    answer: "option2",
+    answerString: 'Bay Bridge'
   },
   {
     id: 2,
@@ -144,10 +144,10 @@ const QUESTIONS = [{
 let QUESTIONNUM = 0
 let SCORE = 0
 const customResultsText = [
-  'Hella good! Your rank: "Veteran Muni driver"',
-  'When people ask where you\'re from, you say SF. It\'s just easier, right? Your rank: "Bay Area resident"',
-  'You\'ve got a Clipper card and you\'re not afraid to use it. Your rank: "Tech commuter"',
-  'New to the city, huh? Ditch the shorts and bring a jacket. Your rank: "Segway riding tourist"'
+  'Hella easy. You were a Warriors fan before they started winning.', 'Your rank: "Veteran Muni driver"',
+  'When people ask where you\'re from, you say SF. It\'s just easier, right?', 'Your rank: "Actually from San Jose"',
+  'You\'ve got a Clipper card and you\'re not afraid to use it.', 'Your rank: "Tech commuter"',
+  'New to the city, huh? Ditch the shorts and bring a jacket.', 'Your rank: "Segway riding tourist"'
 ]
 
 // ===============================================================
@@ -164,7 +164,7 @@ function makeQuestionTemplate() {
   $(".quiz-area").html(`
     <form class='quiz-form'>
     ${QUESTIONS[QUESTIONNUM].content}
-    <button class='submit-answer-btn centered' type='submit'>Submit</button>
+    <button class='submit-answer-btn' type='submit'>Submit Answer</button>
     </form>
   `)
 }
@@ -173,12 +173,10 @@ function makeQuestionTemplate() {
 
 function renderNewQuestion() {
   if (QUESTIONNUM < QUESTIONS.length) {
-    console.log(`rendering new question #${QUESTIONNUM}`)
     makeQuestionTemplate()
     $('#question-count').html(`Question: ${QUESTIONNUM + 1} / 10`)
     checkAnswer()
   } else {
-    console.log(QUESTIONNUM)
     renderFinalResults()
   }
 }
@@ -189,7 +187,6 @@ function checkAnswer() {
   $('.quiz-form').on('submit', function (e) {
     e.preventDefault()
     let userAnswer = $('input:radio[name="option"]:checked').val()
-    console.log(`checking your answer ${userAnswer}`)
     if (QUESTIONS[QUESTIONNUM].answer === userAnswer) {
       triggerRightAnswer()
     } else {
@@ -201,7 +198,6 @@ function checkAnswer() {
 //---------------------------------------------------------
 
 function triggerRightAnswer() {
-  console.log("correct!")
   SCORE++
   $('#score-count').html(`Score: ${SCORE}`)
   let postQuestionText = "That's right!"
@@ -211,8 +207,7 @@ function triggerRightAnswer() {
 //---------------------------------------------------------
 
 function triggerWrongAnswer(answer) {
-  console.log("wrong!")
-  let postQuestionText = "Sorry... the correct answer is " + answer + "!"
+  let postQuestionText = `Sorry... the correct answer is ${answer}!`
   renderPostQuestion(postQuestionText)
 }
 
@@ -221,7 +216,7 @@ function triggerWrongAnswer(answer) {
 function renderPostQuestion(postQuestionText) {
   $(".quiz-area").html(`
     <p>${postQuestionText}</p>
-    <button class='next-btn' type='button'>Next</button>
+    <button class='next-btn' type='button'>Next Question</button>
   `)
   nextQuestion()
 }
@@ -243,6 +238,7 @@ function resetQuiz() {
   $(main).on('click', '.restart-btn', function (e) {
     $('.quiz-area').html('')
     QUESTIONNUM = 0
+    SCORE = 0
     renderIntro()
   })
 }
@@ -250,9 +246,12 @@ function resetQuiz() {
 //---------------------------------------------------------
 
 function renderIntro() {
+  $('#score-count').html(`Score: 0`)
+  $('#question-count').html(`Question: 0 / 10`)
   $('.quiz-area').html(`
     <h1>Think you know San Francisco?</h1>
-    <h1>Let's find out!</h1>
+    <br>
+    <p>Let's find out!</p>
     <button type='button' class='start-btn'>Click to start</button>
 `)
 }
@@ -260,22 +259,29 @@ function renderIntro() {
 //---------------------------------------------------------
 
 function renderFinalResults() {
-  console.log("final results displayed")
-  let resultMessage = ""
+  let resultMessage = ''
+  let resultRank = ''
   if (SCORE > 8) {
     resultMessage = customResultsText[0]
-  } else if (SCORE > 5) {
-    resultMessage = customResultsText[1]
-  } else if (SCORE > 2) {
+    resultRank = customResultsText[1]
+  } else if (SCORE > 6) {
     resultMessage = customResultsText[2]
+    resultRank = customResultsText[3]
+  } else if (SCORE > 3) {
+    resultMessage = customResultsText[4]
+    resultRank = customResultsText[5]
   } else {
-    resultMessage = customResultsText[3]
+    resultMessage = customResultsText[6]
+    resultRank = customResultsText[7]    
   }
   $(".quiz-area").html(`
-    <h1>You scored ${SCORE} out of 10!
-    ${resultMessage}</h1>
+    <h1>You scored ${SCORE} out of 10!</h1>
+    <p>${resultMessage}</p>
+    <p>${resultRank}</p>
+    <br>
     <p>Would you like to try again?</p>
-    <button class='restart-btn' type='button'>Restart</button>
+    <br>
+    <button class='restart-btn' type='button'>Restart Quiz</button>
   `)
   resetQuiz()
 }
